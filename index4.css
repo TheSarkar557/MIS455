@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(238, 191, 134);
+    background-color: rgb(98, 98, 99);
 }
 /* adding style on 1st paragraph */
 .start .Paragraph p{
-    border: 3px solid rgb(23, 90, 214);
-    background-color: rgb(133, 52, 209);
+    border: 3px solid rgb(19, 19, 20);
+    background-color: rgb(178, 230, 82);
     box-shadow: rgb(252, 71, 152);
     margin: 15px;
     padding: 20px;
@@ -28,8 +28,8 @@ body{
 }
 /* adding style at 2nd .Paragraph */
 .end .Paragraph p{
-    border: 3px solid rgb(228, 74, 74);
-    background-color: rgb(123, 252, 252);
+    border: 3px solid rgb(22, 21, 21);
+    background-color: rgb(235, 96, 114);
     box-shadow: 4px 6px 3px;
     margin: 15px;
     padding: 20px;

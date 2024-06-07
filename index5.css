@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(100, 238, 231);
+    background-color: rgb(240, 93, 93);
 }
 /* adding style on 1st paragraph */
 .start .Paragraph p{
-    border: 3px solid rgb(23, 90, 214);
-    background-color: rgb(202, 238, 42);
+    border: 3px solid rgb(8, 8, 8);
+    background-color: rgb(233, 230, 69);
     box-shadow: rgb(252, 71, 152);
     margin: 15px;
     padding: 20px;
@@ -22,14 +22,14 @@ body{
 .start .Paragraph p{
     width: 600px;
     height: 400px;
-    font-size: 20;
+    font-size: 25;
     display: flex;
     grid-template-columns: repeat(2,1fr);
 }
 /* adding style at 2nd .Paragraph */
 .end .Paragraph p{
-    border: 3px solid rgb(228, 74, 74);
-    background-color: rgb(124, 231, 110);
+    border: 3px solid rgb(32, 30, 30);
+    background-color: rgb(227, 91, 240);
     box-shadow: 4px 6px 3px;
     margin: 15px;
     padding: 20px;
@@ -45,7 +45,7 @@ body{
 .end .Paragraph p{
     width: 600px;
     height: 400px;
-    font-size: 20;
+    font-size: 22;
     display: flex;
     grid-template-columns: repeat(2,1fr);
 
@@ -58,13 +58,15 @@ body{
 .end img{
     float: left;
 }
-.start .Paragraph{
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.end .Paragraph{
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.start .Paragraph p{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}  
+.end .Paragraph p{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
