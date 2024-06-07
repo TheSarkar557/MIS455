@@ -1,54 +1,59 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(222, 238, 73);
+    background-color: rgb(238, 191, 134);
 }
-/* adding style on first Paragraph */
+/* adding style on 1st paragraph */
 .start .Paragraph p{
-    border: 3px solid rgb(19, 18, 18);
-    background-color: rgb(61, 216, 237);
-    box-shadow: 4px 6px 3px;
+    border: 3px solid rgb(23, 90, 214);
+    background-color: rgb(133, 52, 209);
+    box-shadow: rgb(252, 71, 152);
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
 }
-/* working on first image  */
+/* working on 1st image  */
 .start img{
     width: 450px;
     height: 450px;
     float: right;
 }
-/* working on first paragraph  */
+/* working on 1st Paragraph */
 .start .Paragraph p{
     width: 600px;
-    height: 400;
+    height: 400px;
     font-size: 20;
-    grid-template-columns: repeat(2,1fr)
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
 }
-/* adding on style adding on 2nd paragraph */
+/* adding style at 2nd .Paragraph */
 .end .Paragraph p{
-    border: 3px solid rgb(0, 0, 0);
-    background-color: rgb(61, 216, 237);
+    border: 3px solid rgb(228, 74, 74);
+    background-color: rgb(123, 252, 252);
     box-shadow: 4px 6px 3px;
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
 }
-/* working on first image  */
+/* working on 2nd image */
 .end img{
-    width: 450px;
-    height: 450px;
-    float: right;
+    width: 400px;
+    height: 400px;
+    float: left;
 }
-/* working on first paragraph  */
+/* working on 2nd .Paragraph */
 .end .Paragraph p{
     width: 600px;
-    height: 400;
+    height: 400px;
     font-size: 20;
-    grid-template-columns: repeat(2,1fr)
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+
 }
+/* shifting 2nd .Paragraph to right side  */
 .end p{
     float: right;
+    
 }
 .end img{
     float: left;
