@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 191, 134);
+}
+/* adding style on 1st paragraph */
+.start .Paragraph p{
+    border: 3px solid rgb(23, 90, 214);
+    background-color: rgb(133, 52, 209);
+    box-shadow: rgb(252, 71, 152);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* working on 1st image  */
+.start img{
+    width: 450px;
+    height: 450px;
+    float: right;
+}
+/* working on 1st Paragraph */
+.start .Paragraph p{
+    width: 600px;
+    height: 400px;
+    font-size: 25;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+}
+/* adding style at 2nd .Paragraph */
+.end .Paragraph p{
+    border: 3px solid rgb(228, 74, 74);
+    background-color: rgb(123, 252, 252);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* working on 2nd image */
+.end img{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+/* working on 2nd .Paragraph */
+.end .Paragraph p{
+    width: 600px;
+    height: 400px;
+    font-size: 22;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+
+}
+/* shifting 2nd .Paragraph to right side  */
+.end p{
+    float: right;
+    
+}
+.end img{
+    float: left;
+}
+.start .Paragraph p{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}  
+.end .Paragraph p{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
