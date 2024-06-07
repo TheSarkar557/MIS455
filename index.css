@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(222, 238, 73);
+}
+/* adding style on first Paragraph */
+.start .Paragraph p{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(61, 216, 237);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* working on first image  */
+.start img{
+    width: 450px;
+    height: 450px;
+    float: right;
+}
+/* working on first paragraph  */
+.start .Paragraph p{
+    width: 600px;
+    height: 400;
+    font-size: 20;
+    grid-template-columns: repeat(2,1fr)
+}
+/* adding on style adding on 2nd paragraph */
+.end .Paragraph p{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(61, 216, 237);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* working on first image  */
+.end img{
+    width: 450px;
+    height: 450px;
+    float: right;
+}
+/* working on first paragraph  */
+.end .Paragraph p{
+    width: 600px;
+    height: 400;
+    font-size: 20;
+    grid-template-columns: repeat(2,1fr)
+}
+.end p{
+    float: right;
+}
+.end img{
+    float: left;
+}
+.start .Paragraph{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.end .Paragraph{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
